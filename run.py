@@ -1,6 +1,6 @@
 from node import Node
 from insert_node import insert
-
+from  print_inorder_bst import inorder
 
 
 if __name__ == '__main__':
@@ -11,3 +11,6 @@ if __name__ == '__main__':
     insert(r, Node(70))
     insert(r, Node(60))
     insert(r, Node(80))
+    # Print inorder traversal of the BST
+    print("inorder treversal of the BST ")
+    inorder(r)
